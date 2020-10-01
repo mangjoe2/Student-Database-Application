@@ -25,26 +25,29 @@ To see the status of the student, we should see their name, ID, courses enrolled
  */
 public class studentDataApp{
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        // student stu1 = new student();
+        // Scanner in = new Scanner(System.in);
+        // // student stu1 = new student();
         
-        // stu1.enroll();
-        // stu1.payTuition();
-        // System.out.println(stu1.showInfo());
+        // // stu1.enroll();
+        // // stu1.payTuition();
+        // // System.out.println(stu1.showInfo());
 
-        //Ask for how many new users we want to add
-        System.out.println("Enter the number of new students to enroll: ");
-        int numberOfStudent = in.nextInt();
-        student[] student = new student[numberOfStudent];
-        //Create n number of new students
-        for(int i=0; i<numberOfStudent; i++){
-            student[i] = new student();
-            student[i].enroll();
-            student[i].payTuition();
-        }
-        for(int i=0; i<numberOfStudent; i++){
-            System.out.println(student[0].showInfo());
-        }
+        // //Ask for how many new users we want to add
+        // System.out.println("Enter the number of new students to enroll: ");
+        // int numberOfStudent = in.nextInt();
+        // student[] student = new student[numberOfStudent];
+        // //Create n number of new students
+        // for(int i=0; i<numberOfStudent; i++){
+        //     student[i] = new student();
+        //     student[i].enroll();
+        //     student[i].payTuition();
+        // }
+        // for(int i=0; i<numberOfStudent; i++){
+        //     System.out.println(student[0].showInfo());
+            
+        
+
+        
     }
     
 }
